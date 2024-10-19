@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <style>
+    text { font-family: Arial, sans-serif; }
+    .title { font-size: 24px; font-weight: bold; }
+    .subtitle { font-size: 18px; font-weight: bold; }
+    .content { font-size: 14px; }
+  </style>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" class="title">Social Media Impact on Professional Development</text>
+
+  <!-- Opportunities -->
+  <rect x="50" y="70" width="220" height="200" fill="#a8d5ba" rx="10" />
+  <text x="160" y="100" text-anchor="middle" class="subtitle">Opportunities</text>
+  <text x="70" y="130" class="content">• Networking</text>
+  <text x="70" y="160" class="content">• Showcasing skills</text>
+  <text x="70" y="190" class="content">• Career visibility</text>
+  <text x="70" y="220" class="content">• Learning opportunities</text>
+
+  <!-- Challenges -->
+  <rect x="290" y="70" width="220" height="200" fill="#f4a582" rx="10" />
+  <text x="400" y="100" text-anchor="middle" class="subtitle">Challenges</text>
+  <text x="310" y="130" class="content">• Information overload</text>
+  <text x="310" y="160" class="content">• Misinformation</text>
+  <text x="310" y="190" class="content">• Unrealistic expectations</text>
+  <text x="310" y="220" class="content">• Negative career impact</text>
+
+  <!-- Solutions -->
+  <rect x="530" y="70" width="220" height="230" fill="#92c5de" rx="10" />
+  <text x="640" y="100" text-anchor="middle" class="subtitle">Solutions</text>
+  <text x="550" y="130" class="content">• Media literacy</text>
+  <text x="550" y="160" class="content">• Fact-checking</text>
+  <text x="550" y="190" class="content">• Mindfulness</text>
+  <text x="550" y="220" class="content">• Realistic storytelling</text>
+  <text x="550" y="250" class="content">• Authenticity</text>
+
+  <!-- Balanced Approach -->
+  <rect x="150" y="340" width="500" height="80" fill="#d5e8d4" rx="10" />
+  <text x="400" y="380" text-anchor="middle" class="subtitle">Balanced Approach</text>
+  <text x="400" y="405" text-anchor="middle" class="content">Integrating online and offline strategies</text>
+
+  <!-- Arrows -->
+  <path d="M160,270 L400,340" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M400,270 L400,340" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M640,300 L400,340" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+
+  <!-- Ongoing Research -->
+  <rect x="150" y="460" width="500" height="60" fill="#e1d5e7" rx="10" />
+  <text x="400" y="495" text-anchor="middle" class="subtitle">Ongoing Research and Adaptive Solutions</text>
+
+  <!-- Final Arrow -->
+  <path d="M400,420 L400,460" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrowhead)" />
+
+  <!-- Arrow Marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" />
+    </marker>
+  </defs>
+</svg>
